@@ -1,0 +1,116 @@
+body {
+font-family: Helvetica, sans-serif;
+background-color: #eef2f2;
+}
+
+
+.container{
+padding: 20px;
+width: 400px;
+margin: 0 auto;
+margin-top: 40px;
+background-color: #000202;
+border-radius: 12px;
+}
+
+h2{
+	font-weight: 100;
+	font-size: 32px;
+	color: #ffc023;
+}
+
+p{
+	color: #eef2f2;
+	font-weight: lighter;
+}
+
+form {
+	display: inline-block;
+
+}
+
+input{
+	padding: 4px 15px 4px 15px;
+	width: 285px;
+	margin-right: 10px;
+	border-radius:  12px;
+	height: 22px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	color: #000202;
+}
+
+#button{
+display: inline-block;
+background-color:#ffc023;
+color:#000202;
+border-radius: 12px;
+text-align: center;
+margin-top: 2px;
+padding: 5px 15px;
+}
+
+#button:hover, #button:focus{
+	cursor: pointer;
+	background-color: #fc6048;
+	color: #000202;
+}
+
+button{
+display: inline-block;
+float: right;
+background-color:#ffc023;
+color:#000202;
+border-radius: 12px;
+text-align: center;
+margin-top: 2px;
+padding: 5px 15px;
+border-style: none;
+margin-right: 0;
+margin-top: 5px;
+}
+
+button:hover, button:focus{
+	cursor: pointer;
+	background-color: #fc6048;
+	color: #000202;
+	border-style: none;
+}
+
+ol {
+	padding-left: 20px;
+	line-height: 35px;
+	width: 100%;
+}
+
+ol li {
+	padding-right: 50px;
+	color:#eef2f2;
+	text-overflow: clip;
+}
+
+ol li:nth-child(even){
+	background-color: #111;
+	color: #eef2f2;
+}
+
+.strike{
+	text-decoration: line-through;
+	color: #333;
+}
+
+li:hover{
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
